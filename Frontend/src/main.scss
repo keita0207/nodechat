@@ -1,0 +1,18 @@
+// base
+@import './sass/base/reset';
+
+// components
+@import './sass/components/register';
+@import './sass/components/messenger';
+@import './sass/components/activeFriend';
+@import './sass/components/friends';
+@import './sass/components/rightSide';
+@import './sass/components/message';
+@import './sass/components/messageSend';
+@import './sass/components/friendInfo';
+
+// layout
+@import './sass/layout/grid';
+
+// utils
+@import './sass/utils/utils';

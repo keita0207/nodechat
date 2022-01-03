@@ -1,0 +1,10 @@
+.row{
+    display: flex;
+    width: 100%;
+}
+@for $i from 1 to 12 {
+    .col-#{$i}{
+        // widthを12分割して$i分を掛けてwidthを計算する。
+        width: 100%/12*$i;
+    }
+}
