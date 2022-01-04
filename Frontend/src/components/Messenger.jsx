@@ -52,7 +52,7 @@ const Messenger = () => {
 
     useEffect(() =>{
         socket.current.on('getUser',(users) =>{
-            // socketで接続されているuserのみをsetActiveUserに渡す。
+            // socketで接続されている自分以外のuserのみをsetActiveUserに渡す。
             const filteredUser = users.filter(u => u.userId !== myInfo.id)
             setActiveUser(filteredUser)
         })
